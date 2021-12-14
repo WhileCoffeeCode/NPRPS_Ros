@@ -1,0 +1,64 @@
+[0.009s] Invoking command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mona/main_ws/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+[0.051s] -- The C compiler identification is GNU 9.3.0
+[0.090s] -- The CXX compiler identification is GNU 9.3.0
+[0.094s] -- Check for working C compiler: /usr/bin/cc
+[0.147s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.148s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.268s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Detecting CXX compile features
+[0.338s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.354s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.354s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.407s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.504s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.525s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.613s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.615s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.626s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.627s] -- Looking for pthread.h
+[0.685s] -- Looking for pthread.h - found
+[0.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.743s] -- Looking for pthread_create in pthreads
+[0.789s] -- Looking for pthread_create in pthreads - not found
+[0.789s] -- Looking for pthread_create in pthread
+[0.837s] -- Looking for pthread_create in pthread - found
+[0.838s] -- Found Threads: TRUE  
+[0.928s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.949s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.981s] WARNING: Package name "Camero_VRPN" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.998s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.003s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.003s] -- Configured cppcheck include dirs: 
+[1.003s] -- Configured cppcheck exclude dirs and/or files: 
+[1.008s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.008s] -- Configured cpplint exclude dirs and/or files: 
+[1.013s] -- Added test 'lint_cmake' to check CMake code style
+[1.019s] -- Added test 'uncrustify' to check C / C++ code style
+[1.019s] -- Configured uncrustify additional arguments: 
+[1.020s] -- Added test 'xmllint' to check XML markup files
+[1.022s] -- Configuring done
+[1.026s] -- Generating done
+[1.027s] -- Build files have been written to: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+[1.033s] Invoked command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mona/main_ws/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+[1.036s] Invoking command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j24 -l24
+[1.066s] [35m[1mScanning dependencies of target forward[0m
+[1.091s] [ 50%] [32mBuilding CXX object CMakeFiles/forward.dir/src/forward.cpp.o[0m
+[1.157s] [01m[K/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/src/forward.cpp:4:10:[m[K [01;31m[Kfatal error: [m[KwiringPi.h: No such file or directory
+[1.157s]     4 | #include [01;31m[K<wiringPi.h>[m[K
+[1.157s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[1.157s] compilation terminated.
+[1.161s] make[2]: *** [CMakeFiles/forward.dir/build.make:63: CMakeFiles/forward.dir/src/forward.cpp.o] Error 1
+[1.161s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/forward.dir/all] Error 2
+[1.161s] make: *** [Makefile:141: all] Error 2
+[1.163s] Invoked command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j24 -l24

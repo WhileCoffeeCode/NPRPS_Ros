@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j24 -l24
+[0.023s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.083s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.105s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.233s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.316s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.336s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.369s] WARNING: Package name "Camero_VRPN" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.379s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.388s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.388s] -- Configured cppcheck include dirs: 
+[0.388s] -- Configured cppcheck exclude dirs and/or files: 
+[0.394s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.394s] -- Configured cpplint exclude dirs and/or files: 
+[0.395s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.397s] -- Added test 'lint_cmake' to check CMake code style
+[0.397s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.404s] -- Added test 'uncrustify' to check C / C++ code style
+[0.404s] -- Configured uncrustify additional arguments: 
+[0.405s] -- Added test 'xmllint' to check XML markup files
+[0.406s] -- Configuring done
+[0.410s] -- Generating done
+[0.411s] -- Build files have been written to: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+[0.434s] [35m[1mScanning dependencies of target forward[0m
+[0.453s] [ 50%] [32mBuilding CXX object CMakeFiles/forward.dir/src/forward.cpp.o[0m
+[0.517s] [01m[K/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/src/forward.cpp:4:10:[m[K [01;31m[Kfatal error: [m[KwiringPi.h: No such file or directory
+[0.517s]     4 | #include [01;31m[K<wiringPi.h>[m[K
+[0.517s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.518s] compilation terminated.
+[0.522s] make[2]: *** [CMakeFiles/forward.dir/build.make:63: CMakeFiles/forward.dir/src/forward.cpp.o] Error 1
+[0.522s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/forward.dir/all] Error 2
+[0.522s] make: *** [Makefile:141: all] Error 2
+[0.524s] Invoked command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j24 -l24

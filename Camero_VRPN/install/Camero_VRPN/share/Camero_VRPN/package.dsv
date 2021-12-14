@@ -1,0 +1,5 @@
+source;share/Camero_VRPN/local_setup.bash
+source;share/Camero_VRPN/local_setup.dsv
+source;share/Camero_VRPN/local_setup.ps1
+source;share/Camero_VRPN/local_setup.sh
+source;share/Camero_VRPN/local_setup.zsh
