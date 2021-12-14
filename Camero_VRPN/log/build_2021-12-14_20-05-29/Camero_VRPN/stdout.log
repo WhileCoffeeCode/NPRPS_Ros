@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/forward.dir/src/forward.cpp.o[0m
+[100%] [32m[1mLinking CXX executable forward[0m
+[100%] Built target forward
+-- Install configuration: ""
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/forward
+-- Set runtime path of "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/forward" to ""
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.sh
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.dsv
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.sh
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.dsv
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.bash
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.sh
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.zsh
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.dsv
+-- Up-to-date: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.dsv
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/packages/Camero_VRPN
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig.cmake
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig-version.cmake
+-- Installing: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.xml

@@ -1,0 +1,2 @@
+Invoking command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mona/main_ws/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+Invoked command in '/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mona/main_ws/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
