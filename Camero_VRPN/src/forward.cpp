@@ -52,7 +52,7 @@ class Motion : public rclcpp::Node {
         }//End of Motion Move 
         
 
-    char * pub_name = "None";
+    char * pub_name = "/RigidBody3/pose";
     geometry_msgs::msg::PoseStamped real_PoseStampd;     
     rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr subscription_;            
 };

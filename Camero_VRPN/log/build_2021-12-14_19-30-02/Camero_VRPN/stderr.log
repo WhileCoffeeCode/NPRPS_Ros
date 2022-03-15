@@ -1,7 +1,0 @@
-WARNING: Package name "Camero_VRPN" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
-Please set them or make sure they are set and tested correctly in the CMake files:
-wiringPi_LIB
-    linked by target "forward" in directory /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
-
-make: *** [Makefile:266: cmake_check_build_system] Error 1

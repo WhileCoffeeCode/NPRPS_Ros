@@ -1,0 +1,205 @@
+[0.000000] (-) TimerEvent: {}
+[0.001051] (Camero_VRPN) JobQueued: {'identifier': 'Camero_VRPN', 'dependencies': OrderedDict()}
+[0.002288] (Camero_VRPN) JobStarted: {'identifier': 'Camero_VRPN'}
+[0.050603] (Camero_VRPN) JobProgress: {'identifier': 'Camero_VRPN', 'progress': 'cmake'}
+[0.053842] (Camero_VRPN) JobProgress: {'identifier': 'Camero_VRPN', 'progress': 'build'}
+[0.057098] (Camero_VRPN) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.109 42930 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/NPRPS_Ros/Camero_VRPN/src'), ('TERM_PROGRAM_VERSION', '1.65.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-738c6e63-fb07-4f97-a633-2ed81a523a3c.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/home/ubuntu/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-35376661f1.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.109 42930 192.168.1.178 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.099225] (-) TimerEvent: {}
+[0.200151] (-) TimerEvent: {}
+[0.231889] (Camero_VRPN) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_forward\x1b[0m\n'}
+[0.300344] (-) TimerEvent: {}
+[0.399533] (Camero_VRPN) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_forward.dir/src/move_forward.cpp.o\x1b[0m\n'}
+[0.400354] (-) TimerEvent: {}
+[0.501099] (-) TimerEvent: {}
+[0.601871] (-) TimerEvent: {}
+[0.727318] (-) TimerEvent: {}
+[0.828069] (-) TimerEvent: {}
+[0.928825] (-) TimerEvent: {}
+[1.029595] (-) TimerEvent: {}
+[1.130376] (-) TimerEvent: {}
+[1.231189] (-) TimerEvent: {}
+[1.331964] (-) TimerEvent: {}
+[1.432726] (-) TimerEvent: {}
+[1.533523] (-) TimerEvent: {}
+[1.634345] (-) TimerEvent: {}
+[1.735239] (-) TimerEvent: {}
+[1.836048] (-) TimerEvent: {}
+[1.936849] (-) TimerEvent: {}
+[2.037646] (-) TimerEvent: {}
+[2.138399] (-) TimerEvent: {}
+[2.239211] (-) TimerEvent: {}
+[2.340013] (-) TimerEvent: {}
+[2.440825] (-) TimerEvent: {}
+[2.541608] (-) TimerEvent: {}
+[2.642389] (-) TimerEvent: {}
+[2.743191] (-) TimerEvent: {}
+[2.843962] (-) TimerEvent: {}
+[2.944736] (-) TimerEvent: {}
+[3.045510] (-) TimerEvent: {}
+[3.146284] (-) TimerEvent: {}
+[3.247182] (-) TimerEvent: {}
+[3.347961] (-) TimerEvent: {}
+[3.448763] (-) TimerEvent: {}
+[3.549566] (-) TimerEvent: {}
+[3.650365] (-) TimerEvent: {}
+[3.751234] (-) TimerEvent: {}
+[3.852145] (-) TimerEvent: {}
+[3.953002] (-) TimerEvent: {}
+[4.053757] (-) TimerEvent: {}
+[4.154583] (-) TimerEvent: {}
+[4.255405] (-) TimerEvent: {}
+[4.356203] (-) TimerEvent: {}
+[4.456988] (-) TimerEvent: {}
+[4.557770] (-) TimerEvent: {}
+[4.658587] (-) TimerEvent: {}
+[4.759443] (-) TimerEvent: {}
+[4.860323] (-) TimerEvent: {}
+[4.961117] (-) TimerEvent: {}
+[5.061890] (-) TimerEvent: {}
+[5.162651] (-) TimerEvent: {}
+[5.263442] (-) TimerEvent: {}
+[5.364215] (-) TimerEvent: {}
+[5.465085] (-) TimerEvent: {}
+[5.565883] (-) TimerEvent: {}
+[5.666673] (-) TimerEvent: {}
+[5.767507] (-) TimerEvent: {}
+[5.868275] (-) TimerEvent: {}
+[5.969061] (-) TimerEvent: {}
+[6.069867] (-) TimerEvent: {}
+[6.170655] (-) TimerEvent: {}
+[6.271453] (-) TimerEvent: {}
+[6.372241] (-) TimerEvent: {}
+[6.473025] (-) TimerEvent: {}
+[6.573800] (-) TimerEvent: {}
+[6.674584] (-) TimerEvent: {}
+[6.775388] (-) TimerEvent: {}
+[6.876157] (-) TimerEvent: {}
+[6.976944] (-) TimerEvent: {}
+[7.077744] (-) TimerEvent: {}
+[7.178540] (-) TimerEvent: {}
+[7.279373] (-) TimerEvent: {}
+[7.380144] (-) TimerEvent: {}
+[7.480925] (-) TimerEvent: {}
+[7.581704] (-) TimerEvent: {}
+[7.682496] (-) TimerEvent: {}
+[7.783309] (-) TimerEvent: {}
+[7.884069] (-) TimerEvent: {}
+[7.984827] (-) TimerEvent: {}
+[8.085596] (-) TimerEvent: {}
+[8.186382] (-) TimerEvent: {}
+[8.287219] (-) TimerEvent: {}
+[8.388002] (-) TimerEvent: {}
+[8.488816] (-) TimerEvent: {}
+[8.589608] (-) TimerEvent: {}
+[8.690413] (-) TimerEvent: {}
+[8.705073] (Camero_VRPN) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Motion::topic_callback(geometry_msgs::msg::PoseStamped)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.706153] (Camero_VRPN) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.706849] (Camero_VRPN) StderrLine: {'line': b'   26 |             float velocity_value = velocityCalculator(real_PoseStampd.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K.linear.x, real_PoseStampd.twist.linear.y);\n'}
+[8.707579] (Camero_VRPN) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.708219] (Camero_VRPN) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.708988] (Camero_VRPN) StderrLine: {'line': b'   26 |    float velocity_value = velocityCalculator(real_PoseStampd.twist.linear.x, real_PoseStampd.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K.linear.y);\n'}
+[8.709634] (Camero_VRPN) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.710584] (Camero_VRPN) StderrLine: {'line': b'\n'}
+[8.711689] (Camero_VRPN) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.712395] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[8.713100] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.714018] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.715020] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.716115] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.716933] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[8.717962] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[8.718808] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.719585] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[8.721040] (Camero_VRPN) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:1\x1b[m\x1b[K:\n'}
+[8.722324] (Camero_VRPN) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:28:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.723247] (Camero_VRPN) StderrLine: {'line': b'   28 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),"Velocity is %f \\n", );\n'}
+[8.724148] (Camero_VRPN) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.724855] (Camero_VRPN) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kvelocity_value\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.725492] (Camero_VRPN) StderrLine: {'line': b'   26 |             float \x1b[01;35m\x1b[Kvelocity_value\x1b[m\x1b[K = velocityCalculator(real_PoseStampd.twist.linear.x, real_PoseStampd.twist.linear.y);\n'}
+[8.726154] (Camero_VRPN) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.790620] (-) TimerEvent: {}
+[8.891529] (-) TimerEvent: {}
+[8.992309] (-) TimerEvent: {}
+[9.093104] (-) TimerEvent: {}
+[9.193933] (-) TimerEvent: {}
+[9.294728] (-) TimerEvent: {}
+[9.395510] (-) TimerEvent: {}
+[9.496298] (-) TimerEvent: {}
+[9.597085] (-) TimerEvent: {}
+[9.697873] (-) TimerEvent: {}
+[9.798660] (-) TimerEvent: {}
+[9.899561] (-) TimerEvent: {}
+[10.000347] (-) TimerEvent: {}
+[10.101127] (-) TimerEvent: {}
+[10.201916] (-) TimerEvent: {}
+[10.302732] (-) TimerEvent: {}
+[10.403542] (-) TimerEvent: {}
+[10.504319] (-) TimerEvent: {}
+[10.605142] (-) TimerEvent: {}
+[10.705976] (-) TimerEvent: {}
+[10.806772] (-) TimerEvent: {}
+[10.907587] (-) TimerEvent: {}
+[11.008374] (-) TimerEvent: {}
+[11.109165] (-) TimerEvent: {}
+[11.209986] (-) TimerEvent: {}
+[11.310786] (-) TimerEvent: {}
+[11.411605] (-) TimerEvent: {}
+[11.512387] (-) TimerEvent: {}
+[11.613153] (-) TimerEvent: {}
+[11.713960] (-) TimerEvent: {}
+[11.814771] (-) TimerEvent: {}
+[11.915578] (-) TimerEvent: {}
+[12.016374] (-) TimerEvent: {}
+[12.117159] (-) TimerEvent: {}
+[12.218012] (-) TimerEvent: {}
+[12.318783] (-) TimerEvent: {}
+[12.419596] (-) TimerEvent: {}
+[12.520364] (-) TimerEvent: {}
+[12.621165] (-) TimerEvent: {}
+[12.721934] (-) TimerEvent: {}
+[12.822706] (-) TimerEvent: {}
+[12.923507] (-) TimerEvent: {}
+[13.024259] (-) TimerEvent: {}
+[13.125039] (-) TimerEvent: {}
+[13.225847] (-) TimerEvent: {}
+[13.326631] (-) TimerEvent: {}
+[13.427459] (-) TimerEvent: {}
+[13.528245] (-) TimerEvent: {}
+[13.629042] (-) TimerEvent: {}
+[13.729834] (-) TimerEvent: {}
+[13.830676] (-) TimerEvent: {}
+[13.931488] (-) TimerEvent: {}
+[14.032274] (-) TimerEvent: {}
+[14.133054] (-) TimerEvent: {}
+[14.233826] (-) TimerEvent: {}
+[14.334648] (-) TimerEvent: {}
+[14.435588] (-) TimerEvent: {}
+[14.536396] (-) TimerEvent: {}
+[14.637199] (-) TimerEvent: {}
+[14.737993] (-) TimerEvent: {}
+[14.838768] (-) TimerEvent: {}
+[14.939666] (-) TimerEvent: {}
+[15.040527] (-) TimerEvent: {}
+[15.141351] (-) TimerEvent: {}
+[15.242170] (-) TimerEvent: {}
+[15.343071] (-) TimerEvent: {}
+[15.443967] (-) TimerEvent: {}
+[15.544756] (-) TimerEvent: {}
+[15.645547] (-) TimerEvent: {}
+[15.746340] (-) TimerEvent: {}
+[15.847068] (-) TimerEvent: {}
+[15.947888] (-) TimerEvent: {}
+[16.048693] (-) TimerEvent: {}
+[16.149495] (-) TimerEvent: {}
+[16.250305] (-) TimerEvent: {}
+[16.351172] (-) TimerEvent: {}
+[16.451972] (-) TimerEvent: {}
+[16.552829] (-) TimerEvent: {}
+[16.635001] (Camero_VRPN) StderrLine: {'line': b'make[2]: *** [CMakeFiles/move_forward.dir/build.make:63: CMakeFiles/move_forward.dir/src/move_forward.cpp.o] Error 1\n'}
+[16.635854] (Camero_VRPN) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/move_forward.dir/all] Error 2\n'}
+[16.636596] (Camero_VRPN) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[16.642031] (Camero_VRPN) CommandEnded: {'returncode': 2}
+[16.653321] (-) TimerEvent: {}
+[16.755470] (-) TimerEvent: {}
+[16.804890] (Camero_VRPN) JobEnded: {'identifier': 'Camero_VRPN', 'rc': 2}
+[16.816767] (-) EventReactorShutdown: {}

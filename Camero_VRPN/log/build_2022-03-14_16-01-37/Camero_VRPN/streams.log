@@ -1,0 +1,32 @@
+[0.058s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
+[0.229s] [35m[1mScanning dependencies of target move_forward[0m
+[0.396s] [ 50%] [32mBuilding CXX object CMakeFiles/move_forward.dir/src/move_forward.cpp.o[0m
+[8.702s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:[m[K In member function ‘[01m[Kvoid Motion::topic_callback(geometry_msgs::msg::PoseStamped)[m[K’:
+[8.703s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[8.704s]    26 |             float velocity_value = velocityCalculator(real_PoseStampd.[01;31m[Ktwist[m[K.linear.x, real_PoseStampd.twist.linear.y);
+[8.704s]       |                                                                       [01;31m[K^~~~~[m[K
+[8.705s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[8.706s]    26 |    float velocity_value = velocityCalculator(real_PoseStampd.twist.linear.x, real_PoseStampd.[01;31m[Ktwist[m[K.linear.y);
+[8.706s]       |                                                                                              [01;31m[K^~~~~[m[K
+[8.708s] 
+[8.708s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[8.709s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[8.710s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[8.711s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[8.712s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[8.713s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[8.714s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[8.715s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[8.716s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[8.717s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[8.718s]                  from [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:1[m[K:
+[8.719s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:28:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[8.720s]    28 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"Velocity is %f \n", );
+[8.721s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[8.721s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:26:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvelocity_value[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.722s]    26 |             float [01;35m[Kvelocity_value[m[K = velocityCalculator(real_PoseStampd.twist.linear.x, real_PoseStampd.twist.linear.y);
+[8.723s]       |                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[16.632s] make[2]: *** [CMakeFiles/move_forward.dir/build.make:63: CMakeFiles/move_forward.dir/src/move_forward.cpp.o] Error 1
+[16.632s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/move_forward.dir/all] Error 2
+[16.633s] make: *** [Makefile:141: all] Error 2
+[16.639s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '2': /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4

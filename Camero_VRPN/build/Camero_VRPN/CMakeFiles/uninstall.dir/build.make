@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
+CMAKE_SOURCE_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+CMAKE_BINARY_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mona/main_ws/NPRPS_Ros/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/NPRPS_Ros/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

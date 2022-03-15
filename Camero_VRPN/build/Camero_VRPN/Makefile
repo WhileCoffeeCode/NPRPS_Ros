@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
+CMAKE_SOURCE_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+CMAKE_BINARY_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -115,8 +115,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,19 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named forward
-
-# Build rule for target.
-forward: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 forward
-.PHONY : forward
-
-# fast build rule for target.
-forward/fast:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/build
-.PHONY : forward/fast
-
-#=============================================================================
 # Target rules for targets named Camero_VRPN_uninstall
 
 # Build rule for target.
@@ -192,6 +179,19 @@ Camero_VRPN_uninstall: cmake_check_build_system
 Camero_VRPN_uninstall/fast:
 	$(MAKE) -f CMakeFiles/Camero_VRPN_uninstall.dir/build.make CMakeFiles/Camero_VRPN_uninstall.dir/build
 .PHONY : Camero_VRPN_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named move_forward
+
+# Build rule for target.
+move_forward: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_forward
+.PHONY : move_forward
+
+# fast build rule for target.
+move_forward/fast:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/build
+.PHONY : move_forward/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/forward.o: src/forward.cpp.o
+src/move_forward.o: src/move_forward.cpp.o
 
-.PHONY : src/forward.o
+.PHONY : src/move_forward.o
 
 # target to build an object file
-src/forward.cpp.o:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/src/forward.cpp.o
-.PHONY : src/forward.cpp.o
+src/move_forward.cpp.o:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/src/move_forward.cpp.o
+.PHONY : src/move_forward.cpp.o
 
-src/forward.i: src/forward.cpp.i
+src/move_forward.i: src/move_forward.cpp.i
 
-.PHONY : src/forward.i
+.PHONY : src/move_forward.i
 
 # target to preprocess a source file
-src/forward.cpp.i:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/src/forward.cpp.i
-.PHONY : src/forward.cpp.i
+src/move_forward.cpp.i:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/src/move_forward.cpp.i
+.PHONY : src/move_forward.cpp.i
 
-src/forward.s: src/forward.cpp.s
+src/move_forward.s: src/move_forward.cpp.s
 
-.PHONY : src/forward.s
+.PHONY : src/move_forward.s
 
 # target to generate assembly for a file
-src/forward.cpp.s:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/src/forward.cpp.s
-.PHONY : src/forward.cpp.s
+src/move_forward.cpp.s:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/src/move_forward.cpp.s
+.PHONY : src/move_forward.cpp.s
 
 # Help Target
 help:
@@ -244,14 +244,14 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... forward"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... Camero_VRPN_uninstall"
+	@echo "... move_forward"
 	@echo "... uninstall"
-	@echo "... src/forward.o"
-	@echo "... src/forward.i"
-	@echo "... src/forward.s"
+	@echo "... src/move_forward.o"
+	@echo "... src/move_forward.i"
+	@echo "... src/move_forward.s"
 .PHONY : help
 
 

@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target move_forward[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_forward.dir/src/move_forward.cpp.o[0m
+[01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:59:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   59 |     char * pub_name = [01;35m[K"/RigidBody3/pose"[m[K;
+      |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable move_forward[0m
+[100%] Built target move_forward
+-- Install configuration: ""
+-- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward
+-- Set runtime path of "/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward" to ""
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.sh
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.dsv
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.bash
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.sh
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.zsh
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.dsv
+-- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.dsv
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/packages/Camero_VRPN
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig.cmake
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig-version.cmake
+-- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.xml

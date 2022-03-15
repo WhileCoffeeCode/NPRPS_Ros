@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
+CMAKE_SOURCE_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+CMAKE_BINARY_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
 
 # Utility rule file for Camero_VRPN_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
 include CMakeFiles/Camero_VRPN_uninstall.dir/progress.make
 
 CMakeFiles/Camero_VRPN_uninstall:
-	/usr/bin/cmake -P /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 Camero_VRPN_uninstall: CMakeFiles/Camero_VRPN_uninstall
 Camero_VRPN_uninstall: CMakeFiles/Camero_VRPN_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/Camero_VRPN_uninstall.dir/clean:
 .PHONY : CMakeFiles/Camero_VRPN_uninstall.dir/clean
 
 CMakeFiles/Camero_VRPN_uninstall.dir/depend:
-	cd /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mona/main_ws/NPRPS_Ros/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/Camero_VRPN_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/NPRPS_Ros/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles/Camero_VRPN_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Camero_VRPN_uninstall.dir/depend
 

@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
+CMAKE_SOURCE_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+CMAKE_BINARY_DIR = /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/forward.dir/all
+all: CMakeFiles/move_forward.dir/all
 
 .PHONY : all
 
@@ -63,38 +63,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/forward.dir/clean
 clean: CMakeFiles/Camero_VRPN_uninstall.dir/clean
+clean: CMakeFiles/move_forward.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/forward.dir
-
-# All Build rule for target.
-CMakeFiles/forward.dir/all:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/depend
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num=1,2 "Built target forward"
-.PHONY : CMakeFiles/forward.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/forward.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/forward.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
-.PHONY : CMakeFiles/forward.dir/rule
-
-# Convenience name for target.
-forward: CMakeFiles/forward.dir/rule
-
-.PHONY : forward
-
-# clean rule for target.
-CMakeFiles/forward.dir/clean:
-	$(MAKE) -f CMakeFiles/forward.dir/build.make CMakeFiles/forward.dir/clean
-.PHONY : CMakeFiles/forward.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Camero_VRPN_uninstall.dir
@@ -103,14 +76,14 @@ CMakeFiles/forward.dir/clean:
 CMakeFiles/Camero_VRPN_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/Camero_VRPN_uninstall.dir/build.make CMakeFiles/Camero_VRPN_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/Camero_VRPN_uninstall.dir/build.make CMakeFiles/Camero_VRPN_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num= "Built target Camero_VRPN_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num= "Built target Camero_VRPN_uninstall"
 .PHONY : CMakeFiles/Camero_VRPN_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Camero_VRPN_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Camero_VRPN_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
 .PHONY : CMakeFiles/Camero_VRPN_uninstall.dir/rule
 
 # Convenience name for target.
@@ -124,20 +97,47 @@ CMakeFiles/Camero_VRPN_uninstall.dir/clean:
 .PHONY : CMakeFiles/Camero_VRPN_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/move_forward.dir
+
+# All Build rule for target.
+CMakeFiles/move_forward.dir/all:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/depend
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num=1,2 "Built target move_forward"
+.PHONY : CMakeFiles/move_forward.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_forward.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_forward.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+.PHONY : CMakeFiles/move_forward.dir/rule
+
+# Convenience name for target.
+move_forward: CMakeFiles/move_forward.dir/rule
+
+.PHONY : move_forward
+
+# clean rule for target.
+CMakeFiles/move_forward.dir/clean:
+	$(MAKE) -f CMakeFiles/move_forward.dir/build.make CMakeFiles/move_forward.dir/clean
+.PHONY : CMakeFiles/move_forward.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
 
 # All Build rule for target.
 CMakeFiles/uninstall.dir/all: CMakeFiles/Camero_VRPN_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

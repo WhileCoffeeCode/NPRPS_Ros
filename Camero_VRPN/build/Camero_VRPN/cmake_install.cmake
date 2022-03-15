@@ -1,8 +1,8 @@
-# Install script for directory: /home/mona/main_ws/NPRPS_Ros/Camero_VRPN
+# Install script for directory: /home/ubuntu/NPRPS_Ros/Camero_VRPN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,31 +38,31 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN" TYPE EXECUTABLE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/forward")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN" TYPE EXECUTABLE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/move_forward")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward"
          OLD_RPATH "/opt/ros/galactic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/forward")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/Camero_VRPN/move_forward")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN/environment" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN/environment" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -78,42 +78,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN/environment" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN/environment" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/packages/Camero_VRPN")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_index/share/ament_index/resource_index/packages/Camero_VRPN")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN/cmake" TYPE FILE FILES
-    "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_core/Camero_VRPNConfig.cmake"
-    "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_core/Camero_VRPNConfig-version.cmake"
+    "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_core/Camero_VRPNConfig.cmake"
+    "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/ament_cmake_core/Camero_VRPNConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/Camero_VRPN" TYPE FILE FILES "/home/ubuntu/NPRPS_Ros/Camero_VRPN/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -124,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mona/main_ws/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

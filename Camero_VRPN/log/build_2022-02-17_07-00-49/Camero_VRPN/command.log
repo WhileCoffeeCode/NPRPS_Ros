@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': /usr/bin/cmake /home/ubuntu/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '1': /usr/bin/cmake /home/ubuntu/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN

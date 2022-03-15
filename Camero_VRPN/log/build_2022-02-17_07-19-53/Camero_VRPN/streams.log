@@ -1,0 +1,29 @@
+[0.054s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
+[0.240s] [35m[1mScanning dependencies of target move_forward[0m
+[0.393s] [ 50%] [32mBuilding CXX object CMakeFiles/move_forward.dir/src/move_forward.cpp.o[0m
+[8.484s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:60:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[8.484s]    60 |     char * pub_name = [01;35m[K"/RigidBody3/pose"[m[K;
+[8.485s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[27.507s] [100%] [32m[1mLinking CXX executable move_forward[0m
+[28.948s] [100%] Built target move_forward
+[28.988s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
+[29.149s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+[29.183s] -- Install configuration: ""
+[29.184s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward
+[29.203s] -- Set runtime path of "/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward" to ""
+[29.203s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN
+[29.204s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN
+[29.204s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.sh
+[29.205s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.dsv
+[29.205s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.sh
+[29.205s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.dsv
+[29.206s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.bash
+[29.206s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.sh
+[29.207s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.zsh
+[29.207s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.dsv
+[29.208s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.dsv
+[29.208s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/packages/Camero_VRPN
+[29.209s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig.cmake
+[29.209s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig-version.cmake
+[29.210s] -- Up-to-date: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.xml
+[29.217s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN

@@ -31,4 +31,3 @@ Pull-requests may be accepted to add or fix support for newer hardware, but new 
 other changes may not be accepted.
 
 For support, comments, questions, etc please join the WiringPi Discord channel: https://discord.gg/SM4WUVG
-Psyche!

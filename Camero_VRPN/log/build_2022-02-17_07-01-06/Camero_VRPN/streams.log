@@ -1,0 +1,68 @@
+[0.050s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+[0.148s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.282s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.763s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.112s] -- Using single rosidl_typesupport_c: rosidl_typesupport_introspection_c
+[1.168s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.298s] -- Using single rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp
+[1.692s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.716s] -- Found rmw_cyclonedds_cpp: 0.22.3 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.821s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.828s] -- Looking for pthread.h
+[2.164s] -- Looking for pthread.h - found
+[2.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.474s] -- Looking for pthread_create in pthreads
+[2.733s] -- Looking for pthread_create in pthreads - not found
+[2.734s] -- Looking for pthread_create in pthread
+[3.030s] -- Looking for pthread_create in pthread - found
+[3.034s] -- Found Threads: TRUE  
+[3.729s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[3.894s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.102s] WARNING: Package name "Camero_VRPN" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[4.297s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.519s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.520s] -- Configured cppcheck include dirs: 
+[4.520s] -- Configured cppcheck exclude dirs and/or files: 
+[4.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.713s] -- Configured cpplint exclude dirs and/or files: 
+[4.739s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.789s] -- Added test 'lint_cmake' to check CMake code style
+[4.816s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.031s] -- Added test 'uncrustify' to check C / C++ code style
+[5.031s] -- Configured uncrustify additional arguments: 
+[5.101s] -- Added test 'xmllint' to check XML markup files
+[5.126s] -- Configuring done
+[5.171s] -- Generating done
+[5.178s] -- Build files have been written to: /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+[5.197s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/NPRPS_Ros/Camero_VRPN -DCMAKE_INSTALL_PREFIX=/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN
+[5.208s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
+[5.372s] [35m[1mScanning dependencies of target move_forward[0m
+[5.818s] [ 50%] [32mBuilding CXX object CMakeFiles/move_forward.dir/src/move_forward.cpp.o[0m
+[14.206s] [01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:59:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[14.207s]    59 |     char * pub_name = [01;35m[K"/RigidBody3/pose"[m[K;
+[14.207s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[34.945s] [100%] [32m[1mLinking CXX executable move_forward[0m
+[36.596s] [100%] Built target move_forward
+[36.635s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
+[36.791s] Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN
+[36.824s] -- Install configuration: ""
+[36.824s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward
+[36.843s] -- Set runtime path of "/home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/lib/Camero_VRPN/move_forward" to ""
+[36.844s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/package_run_dependencies/Camero_VRPN
+[36.846s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/parent_prefix_path/Camero_VRPN
+[36.847s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.sh
+[36.848s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/ament_prefix_path.dsv
+[36.849s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.sh
+[36.850s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/environment/path.dsv
+[36.851s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.bash
+[36.853s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.sh
+[36.854s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.zsh
+[36.855s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/local_setup.dsv
+[36.856s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.dsv
+[36.857s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/ament_index/resource_index/packages/Camero_VRPN
+[36.859s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig.cmake
+[36.860s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/cmake/Camero_VRPNConfig-version.cmake
+[36.861s] -- Installing: /home/ubuntu/NPRPS_Ros/Camero_VRPN/install/Camero_VRPN/share/Camero_VRPN/package.xml
+[36.868s] Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN

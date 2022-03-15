@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.8)
 project(Camero_VRPN)
 
@@ -14,18 +15,17 @@ find_package(geometry_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(forward src/forward.cpp)
+add_executable(move_forward src/move_forward.cpp)
 
-ament_target_dependencies(forward rclcpp geometry_msgs  )
+ament_target_dependencies(move_forward rclcpp geometry_msgs)
 
-add_definitions(-lwiringPi )
 
-target_link_libraries(forward -lwiringPi)
+target_link_libraries(move_forward)
 
 
 
 install(TARGETS 
-forward
+move_forward
 DESTINATION lib/${PROJECT_NAME})
 
 
