@@ -1,8 +1,0 @@
-source;share/Camero_VRPN/hook/cmake_prefix_path.ps1
-source;share/Camero_VRPN/hook/cmake_prefix_path.dsv
-source;share/Camero_VRPN/hook/cmake_prefix_path.sh
-source;share/Camero_VRPN/local_setup.bash
-source;share/Camero_VRPN/local_setup.dsv
-source;share/Camero_VRPN/local_setup.ps1
-source;share/Camero_VRPN/local_setup.sh
-source;share/Camero_VRPN/local_setup.zsh

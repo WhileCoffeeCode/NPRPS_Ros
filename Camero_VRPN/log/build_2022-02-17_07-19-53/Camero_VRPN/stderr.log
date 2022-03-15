@@ -1,3 +1,0 @@
-[01m[K/home/ubuntu/NPRPS_Ros/Camero_VRPN/src/move_forward.cpp:60:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
-   60 |     char * pub_name = [01;35m[K"/RigidBody3/pose"[m[K;
-      |                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K

@@ -12,7 +12,7 @@ string command_move = "python3 /home/ubuntu/NPRPS_Ros/Camero_VRPN/src/led.py 1 "
 void setSpeedandExecute(float givenSpeed){
     float adjustedSpeed = 0.0;
     //we have to limit the maximum PWM which is going to be sent to the ESC
-    //would be 7.8
+    //would be 8.7
     if(givenSpeed >= 8.7)
         adjustedSpeed = 8.7;
     else 

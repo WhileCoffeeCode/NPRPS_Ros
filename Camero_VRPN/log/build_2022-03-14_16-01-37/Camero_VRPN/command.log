@@ -1,2 +1,0 @@
-Invoking command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN': /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
-Invoked command in '/home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN' returned '2': /usr/bin/cmake --build /home/ubuntu/NPRPS_Ros/Camero_VRPN/build/Camero_VRPN -- -j4 -l4
